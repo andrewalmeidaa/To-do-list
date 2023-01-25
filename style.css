@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    background-color: #3c484e;
+    height: 100%;
+}
+
+.BtnAddLine{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 100%;
+    font-size: 30px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.BtnAddLine:hover{
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 35px;
+}
+
+.divBtnAddLine{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.checkboxInput{
+    border: none;
+}
+
+.divItemToDo{
+    display: flex;
+    gap: 10px;
+}
+
+.btnRemove{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.itemLineToDo{
+    height: 30px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.listToDo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rowItemLine{
+    font-size: 30px;
+    color: white;
+}
+
+.checkboxItem{
+    height: 40px;
+}
+
+
+
+.divItemToDo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
